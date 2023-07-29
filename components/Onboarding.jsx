@@ -15,7 +15,7 @@ const Onboarding = ({
         {/* Field1  */}
         <div className="flex items-center space-x-16 w-[900px] h-[220px]  px-8 ">
           <div className="flex bg-gray-900 items-center -mt-12 justify-center rounded-full shadow-2xl w-[70px] h-[70px]">
-            <img className="w-[50px]" src="/taskupp-logo.png" />
+            <img className="w-[50px]" src="/onetask-logo-light.png" />
           </div>
           <div className="flex flex-col space-y-2">
             <p className="text-4xl font-semibold font-inter text-gray-800">
@@ -33,7 +33,7 @@ const Onboarding = ({
         {/* Field2  */}
         <div className="flex items-center h-[220px] space-x-16 w-[900px]  px-8 ">
           <div className="flex bg-gray-900 items-center -mt-12 justify-center rounded-full shadow-2xl w-[70px] h-[70px]">
-            <img className="w-[50px]" src="/taskupp-logo.png" />
+            <img className="w-[50px]" src="/onetask-logo-light.png" />
           </div>
           <div className="flex flex-col space-y-4">
             <label className="text-3xl font-inter font-normal text-gray-900">
@@ -55,7 +55,7 @@ const Onboarding = ({
 
         <div className="flex items-center h-[220px] space-x-16 w-[900px]  px-8 ">
           <div className="flex bg-gray-900 items-center -mt-12 justify-center rounded-full shadow-2xl w-[70px] h-[70px]">
-            <img className="w-[50px]" src="/taskupp-logo.png" />
+            <img className="w-[50px]" src="/onetask-logo-light.png" />
           </div>
           <div className="flex flex-col space-y-4">
             <label className="text-3xl font-inter font-normal text-gray-900">
@@ -84,7 +84,7 @@ const Onboarding = ({
         {/* Field 4  */}
         <div className="flex items-center h-[220px] space-x-16 w-[900px]  px-8 ">
           <div className="flex bg-gray-900 items-center -mt-12 justify-center rounded-full shadow-2xl w-[70px] h-[70px]">
-            <img className="w-[50px]" src="/taskupp-logo.png" />
+            <img className="w-[50px]" src="/onetask-logo-light.png" />
           </div>
           <div className="flex flex-col space-y-10">
             <div className="flex flex-col space-y-2 ">
@@ -97,7 +97,7 @@ const Onboarding = ({
             </div>
             <button
               onClick={handleOnBoard}
-              className=" text-lg bg-gray-900 text-gray-100 dark:bg-gray-100 dark:text-gray-900 font-medium rounded-md p-2 w-[200px] "
+              className=" text-lg bg-gray-900 text-gray-100 dark:bg-gray-300 dark:text-gray-900 font-medium rounded-md p-2 w-[200px] "
             >
               Play with Taskupp
             </button>

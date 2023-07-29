@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 const ConfirmSignUp = ({ authCode, handleAuthCode, handleConfirmSignUp }) => {
   return (
-    <div className="relative flex flex-col min-h-screen bg-gray-50 z-10 overflow-hidden">
+    <div className="relative flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900 z-10 overflow-hidden">
       {/* SignUp Nav Section   */}
       <div className="flex justify-between mx-auto max-w-7xl w-full h-16 bg-transparent mt-4">
         <div className="flex items-center">
@@ -26,7 +26,7 @@ const ConfirmSignUp = ({ authCode, handleAuthCode, handleConfirmSignUp }) => {
         </div> */}
       </div>
 
-      <div className="pt-6 flex flex-col bg-gray-50 shadow-2xl w-[450px] h-[360px] rounded-2xl z-20 mx-auto mt-20">
+      <div className="pt-6 flex flex-col bg-gray-100 dark:bg-gray-300 shadow-2xl w-[450px] h-[360px] rounded-2xl z-20 mx-auto mt-20">
         <div className="flex flex-col space-y-6 flex-1 px-12 py-4 pt-6">
           <div className="flex items-center justify-center text-3xl font-inter font-bold text-gray-800">
             We Emailed You
@@ -46,7 +46,7 @@ const ConfirmSignUp = ({ authCode, handleAuthCode, handleConfirmSignUp }) => {
                 value={authCode}
                 onChange={handleAuthCode}
                 placeholder="Enter your code"
-                className="pl-2 bg-gray-50 text-sm font-normal text-gray-500 font-inter focus:outline-none ml-2 w-full"
+                className="pl-2 bg-gray-50 dark:bg-gray-300 text-sm font-normal text-gray-500 dark:text-gray-900 font-inter focus:outline-none ml-2 w-full"
               />
             </div>
           </div>

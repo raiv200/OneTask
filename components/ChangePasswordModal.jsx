@@ -65,7 +65,7 @@ const ChangePasswordModal = ({ handlePasswordModal, handleChangePassword }) => {
           </div>
 
           <button
-            onClick={handleChangePassword}
+            onClick={() => handleChangePassword(newPassword)}
             type="submit"
             className="w-full btn text-gray-100 px-5 py-3 dark:text-gray-900 bg-gray-900 dark:bg-gray-100 shadow-2xl  hover:shadow-xl hover:opacity-80"
           >

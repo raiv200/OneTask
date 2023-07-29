@@ -43,8 +43,10 @@ const Profile = () => {
     setShowPasswordModal(!showPasswordModal);
   };
 
-  const handleChangePassword = () => {
+  const handleChangePassword = (newPassword) => {
     console.log("Password Changed");
+    console.log("New Password",newPassword);
+    setPassword(newPassword);
     setShowPasswordModal(!showPasswordModal);
   };
 
@@ -75,16 +77,17 @@ const Profile = () => {
   const saveUpdatedProfile = async (
     id,
     updatedDisplayName,
-    updatedImageUrl
+    updatedImageUrl,
+    newPassword
   ) => {
     const original = await DataStore.query(UserProfile, id);
 
-    
-
+    console.log("New Password",newPassword);
     await DataStore.save(
       UserProfile.copyOf(original, (updated) => {
         updated.displayName = updatedDisplayName;
         updated.imageUrl = updatedImageUrl;
+        updated.password = newPassword;
       })
     );
 
@@ -92,8 +95,8 @@ const Profile = () => {
   };
 
   const handleUpdateProfile = () => {
-    
-    saveUpdatedProfile(id, displayName, imageUrl);
+    console.log("Profile Updated !!!")
+    saveUpdatedProfile(id, displayName, imageUrl,password);
   };
 
   const handleLogout = async () => {

@@ -6,7 +6,7 @@
 
 **To Build an exciting Open-Source app of your choice using AWS Amplify as Backend and its other features during the whole of September. Publish an article on your Hashnode blog about the process of creating and launching your app for a chance to win one of the 15 cash prizes and swags!**
 
-[Live Demo URL](https://onetask.vercel.app)
+[Live Demo URL](https://onetask-raivikas.vercel.app/)
 
 
 ![Poject Final View](./public/onetask.png)
