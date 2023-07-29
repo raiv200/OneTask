@@ -59,7 +59,7 @@ const Card = ({
               snapshot.isDragging
                 ? "border-4 border-dashed bg-gray-200 dark:bg-gray-900"
                 : "bg-gray-50 dark:bg-gray-700/70 bg-opacity-100"
-            } relative flex flex-col backdrop space-y-4 mx-auto w-[257px]   rounded-2xl px-3 py-4 text-white border border-gray-300  cursor-pointer shadow-sm hover:shadow-2xl dark:hover:shadow-2xl shadow-gray-400 dark:shadow-gray-900 dark:hover:shadow-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700/100 transition duration-300 ease-in`}
+            } relative flex flex-col backdrop space-y-4 mx-auto w-[257px]   rounded-2xl px-3 py-4 text-white border border-gray-300  cursor-pointer shadow-sm hover:shadow-xl dark:hover:shadow-2xl shadow-gray-400 dark:shadow-gray-900 dark:hover:shadow-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700/100 transition duration-300 ease-in`}
           >
            
 
