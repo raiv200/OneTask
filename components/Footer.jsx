@@ -43,7 +43,7 @@ const Footer = () => {
 
       <div className="dark:text-gray-100 text-gray-900 font-bold text-md pl-12 mr-2">
         Made with ❤️ by{" "}
-        <span className="ml-2 font-semibold font-ibm text-lg tracking-tight bg-gradient-to-r from-indigo-500  to-cyan-500 bg-clip-text text-transparent">
+        <span className="ml-2 font-semibold font-ibm text-lg tracking-tight bg-gradient-to-r from-yellow-500  to-orange-400 bg-clip-text text-transparent">
           <Link href="https://twitter.com/raivikas200">@raivikas</Link>
         </span>
       </div>

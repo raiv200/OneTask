@@ -39,9 +39,9 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="w-full h-full flex items-center px-2 space-x-4 ">
-              {/* <img className="w-[150px] h-[78px]" src="/taskupp-brand-1.png" alt="" /> */}
-              <img className="w-[100px] h-[36px] pt-1 " src="/taskupp-brand-2.png" alt="" />
-              <img className="w-[120px] h-[36px] pt-1" src="/taskupp-brand-3.png" alt="" />
+              {/* <img className="w-[150px] h-[78px]" src="/onetask-brand-1.png" alt="" /> */}
+              <img className="w-[100px] h-[36px] pt-1 " src="/onetask-brand-2.png" alt="" />
+              <img className="w-[120px] h-[36px] pt-1" src="/onetask-brand-3.png" alt="" />
           </div>
           </div>
           
@@ -51,7 +51,7 @@ const HeroSection = () => {
         <div className="flex w-full relative  ">
         
 
-          <img className=" absolute rounded-2xl w-[780px] h-[420px] -left-8 -top-2 pulse  " src="/banner-onetask.png" />
+          <img className=" absolute rounded-2xl w-[780px] h-[420px] -left-8 -top-2 " src="/banner-onetask.png" />
         
           <img className=" absolute rounded-2xl w-[340px] h-[420px] right-8 top-24 bounce" src="/taskinfo-onetask.png" />
         </div>

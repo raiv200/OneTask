@@ -9,7 +9,7 @@
 [Live Demo URL](https://onetask.vercel.app)
 
 
-![Poject Final View](./public/onetask.PNG)
+![Poject Final View](./public/onetask.png)
 
 ### Project Overview
 
