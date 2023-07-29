@@ -1,0 +1,48 @@
+type UserProfile @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  email: AWSEmail
+  password: String
+  displayName: String
+  imageUrl: AWSURL
+  notes: [Notes] @hasMany(indexName: "byUserProfile", fields: ["id"])
+  Boards: [Boards] @hasMany(indexName: "byUserProfile", fields: ["id"])
+}
+
+type Notes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  description: String
+  priority: String
+  date: AWSDate
+  userprofileID: ID! @index(name: "byUserProfile")
+}
+
+type Boards @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  boardTitle: String
+  userprofileID: ID! @index(name: "byUserProfile")
+  cards: [TaskCard] @hasMany(indexName: "byBoards", fields: ["id"])
+}
+
+type Label {
+  id: ID
+  text: String
+  color: String
+}
+
+type Task {
+  id: ID
+  title: String
+  completed: Boolean
+}
+
+type TaskCard @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  tasks: Task
+  labels: Label
+  description: String
+  date: String
+  boardsID: ID! @index(name: "byBoards")
+}
